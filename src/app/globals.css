@@ -1,3 +1,8 @@
+/* src/styles/globals.css */
+
+/* Importando a fonte do Google Fonts (deve ser a primeira regra) */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,8 +19,9 @@
   }
 }
 
+/* Definindo a fonte padrão */
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lavishly Yours', Arial, Helvetica, sans-serif; /* Aplicando a fonte importada */
 }
